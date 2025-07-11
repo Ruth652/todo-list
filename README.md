@@ -65,3 +65,8 @@ All screenshots are stored in the `screenshots/` folder.
 ### 3. Delete a task:
 
 - Click the Delete button next to the task you want to remove
+
+### Known Issues
+
+- Tasks are **not saved** after reloading the page since `localStorage` is not implemented.
+- No task completion checkbox or strikethrough feature is available (planned for future improvements).
