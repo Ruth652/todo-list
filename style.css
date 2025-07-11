@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-section input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-section button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .input-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    background-color: #f9f9f9;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: box-shadow 0.2s;
+  }
+  
+  li:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  li span {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+    word-break: break-word;
+  }
+  
+  li button {
+    margin-left: 10px;
+    padding: 6px 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+ 
+  li button.edit-btn {
+    background-color: #4e86c2;
+  }
+  
+  li button.delete-btn {
+    background-color: #e66875;
+  }
+  
+  li button.ok-btn {
+    background-color: #28a745;
+    margin-left: 100px;
+  }
+  
+  li button.cancel-btn {
+    background-color: #6c757d;
+    margin-left: 0px; 
+  }
+  
+  
+  li button:hover {
+    opacity: 0.9;
+  }
+  
+  
+  li input[type="text"] {
+    flex: 1;
+    padding: 6px 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
