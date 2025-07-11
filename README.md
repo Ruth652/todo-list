@@ -31,7 +31,7 @@ Clicking the Edit button allows users to change task names. OK and Cancel button
 ### Delete Task
 
 ![Delete Item](screenshots/delete.png)  
-This screenshot shows a list with tasks rempved from the previous. The Delete button next to each task removes it from the list when clicked.
+This screenshot shows a list with tasks removed from the previous. The Delete button next to each task removes it from the list when clicked.
 
 All screenshots are stored in the `screenshots/` folder.
 
@@ -69,4 +69,3 @@ All screenshots are stored in the `screenshots/` folder.
 ### Known Issues
 
 - Tasks are **not saved** after reloading the page since `localStorage` is not implemented.
-- No task completion checkbox or strikethrough feature is available (planned for future improvements).
